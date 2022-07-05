@@ -1,0 +1,47 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --main-color: #ff6633;
+
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-search: calc(var(--header-height) - var(--navbar-height))
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.grid-column-10 {
+    width: 83.333%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@keyframes FadeOut {
+    from    {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+@keyframes ZoomIn {
+    from {
+        transform: scale(0);
+
+        opacity: 0;
+    } to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
